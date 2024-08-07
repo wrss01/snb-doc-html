@@ -25,4 +25,4 @@ build:
       #- cp --recursive * $READTHEDOCS_OUTPUT/html/
       #- rsync -av --exclude 'html' ./ $READTHEDOCS_OUTPUT/html/
       # - find . -path ./html -prune -o -type f -print |cpio -pdmv  $READTHEDOCS_OUTPUT/html/
-      - tar
+      - tar --exclude='./html' -cvf - . | tar -C $READTHEDOCS_OUTPUT/html/ -xvf -
