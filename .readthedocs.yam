@@ -1,0 +1,25 @@
+version: 2
+build:
+  os: "ubuntu-22.04"
+  tools:
+    #nodejs: "14"
+    # You can also specify other tool versions:
+    # python: "3"
+  commands:
+      # "docs/" was created following the Docusaurus tutorial:
+      # npx create-docusaurus@latest docs classic
+      #
+      # Install Docusaurus dependencies
+      #- npm cache clean --force
+      #- npm install -g npm@6.14.12
+      #- npm install -g yarn@1.22.21
+      #- npm install -g graceful-fs@4.2.10
+      # - npm install -g gitbook-cli@2.3.2
+      # - npm install -g gitbook@3.2.3
+      #- npm install -g @gitbook-ng/gitbook
+      #- yarn install 
+      #- gitbook build
+      #- yarn build
+      # Copy generated files into Read the Docs directory
+      - mkdir --parents $READTHEDOCS_OUTPUT/html/
+      - cp --recursive * $READTHEDOCS_OUTPUT/html/
