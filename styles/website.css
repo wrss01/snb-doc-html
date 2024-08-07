@@ -1,0 +1,96 @@
+.markdown-section img {
+    margin:0px auto;
+    display: block;
+}
+
+.title {
+    display: none;
+}
+
+.book-summary{
+    height: -webkit-fill-available;
+}
+
+.markdown-section{
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.page-inner {
+    padding: 20px 20% 40px 40px;
+}
+
+.book-summary {
+    width: 15%;
+}
+
+@media (min-width: 600px) {
+    .book.with-summary .book-body {
+        left:15%
+    }
+}
+
+.book-anchor {
+    width: 15%;
+}
+
+.markdown-section *{
+    font-size: 1.5rem;
+}
+
+.book-header h1{
+    display: none;
+}
+
+figure {
+    margin: 1.5em 0px;
+    padding:10px 0;
+}
+
+figcaption {
+    clear: left;
+    margin: 0.75em 0px;
+    text-align: center;
+    font-style: italic;
+    line-height: 1.5em;
+    display:block;
+}
+
+.header-inner .logo {
+    float: left;
+    height: 120px;
+    width: 280px;
+    background-size: 280px 70px;
+    background-repeat: no-repeat;
+}
+
+.header-inner .header-nav li a {
+    color: #000000;
+    font-weight: 800;
+    padding: .5rem;
+    font-size: 16px;
+}
+
+.markdown-section img {
+    display: block;
+    padding:1px;
+    margin-left: 0px;
+    background: #f8fafb;
+    border:12px #f8fafb solid;
+}
+
+.icon {
+    display: inline-block;
+    padding:1px; 
+    background: white;
+    border:0px;
+}
+
+.table {
+    border-collapse: collapse;
+    border: 0.5px solid grey;
+  }
+  
+.td {
+    border: 0.5px solid grey;
+  }

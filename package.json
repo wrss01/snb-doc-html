@@ -1,0 +1,19 @@
+{
+  "name": "smart_notebook_doc_gitbook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "gitbook serve",
+    "build": "gitbook build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gitbook-plugin-mathjax": "^2.0.0",
+    "mathjax": "^2.7.6"
+  },
+  "devDependencies": {
+   
+  }
+}
