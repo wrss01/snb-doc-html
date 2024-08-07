@@ -24,3 +24,4 @@ build:
       #- mkdir --parents $READTHEDOCS_OUTPUT/html/
       #- cp --recursive * $READTHEDOCS_OUTPUT/html/
       #- rsync -av --exclude 'html' ./ $READTHEDOCS_OUTPUT/html/
+      - pwd
